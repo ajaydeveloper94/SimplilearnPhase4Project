@@ -1,0 +1,48 @@
+{
+    "questions": [
+        {
+            "questionId": 1,
+            "questionName": "Which city is called as Silicon Valley of India?",
+            "option1": "Bangalore",
+            "option2": "Hyderabad",
+            "option3": "Chennai",
+            "answer": "Bangalore"
+        },
+
+        {
+            "questionId": 2,
+            "questionName": "Who is the PM of India?",
+            "option1": "Manmohan Singh",
+            "option2": "Sonia Gandhi",
+            "option3": "Modi",
+            "answer": "Modi"
+        },
+
+        {
+            "questionId": 3,
+            "questionName": "What is the currency of US?",
+            "option1": "Dollar",
+            "option2": "Rupee",
+            "option3": "Pound",
+            "answer": "Dollar"
+        },
+
+        {
+            "questionId": 4,
+            "questionName": "What is the capital of India?",
+            "option1": "New Delhi",
+            "option2": "Mumbai",
+            "option3": "Chennai",
+            "answer": "New Delhi"
+        },
+
+        {
+            "questionId": 5,
+            "questionName": "Who is the father of Computer?",
+            "option1": "Charles Babbage",
+            "option2": "Alan Turing",
+            "option3": "James Gosling",
+            "answer": "Charles Babbage"
+        }
+    ]
+}

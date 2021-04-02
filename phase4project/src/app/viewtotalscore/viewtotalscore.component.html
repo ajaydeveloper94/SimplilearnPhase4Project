@@ -1,0 +1,61 @@
+
+
+<table class="table">
+    <thead>
+     
+      <tr>
+        <th scope="col">S.No</th>
+        <th scope="col">Your Answer</th>
+        <th scope="col">Correct Answer</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>{{this.givenansone}}</td>
+        <td>{{quest[0].answer}}</td>
+        
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>{{this.givenanstwo}}</td>
+        <td>{{quest[1].answer}}</td>
+        
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td >{{this.givenansthree}}</td>
+        <td>{{quest[2].answer}}</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>{{this.givenansfour}}</td>
+        <td>{{quest[3].answer}}</td>
+        
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>{{this.givenansfive}}</td>
+        <td>{{quest[4].answer}}</td>
+       
+      </tr>
+    </tbody>
+  </table>
+ <br/>
+ <hr>
+ 
+
+
+  
+  <a routerLink="viewscore" (click)="myScore()" class="btn btn-primary">Click Here to Submit and View Score</a> 
+
+  <br/><br/>
+  
+  <div>
+    <router-outlet>
+     <!--   All components will be rendered here.  -->
+    </router-outlet>
+    
+    </div>
+
